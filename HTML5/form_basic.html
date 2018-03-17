@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <title>表单</title>
+</head>
+
+<body>
+    <h3>表单</h3>
+    <h4>创建文本字段</h4>
+    <form>
+        First name:
+        <input type="text" name="firstname">
+        <br> Last name:
+        <input type="text" name="lastname">
+    </form>
+    <h4>密码字段</h4>
+    <form>
+        Username:
+        <input type="text" name="user">
+        <br> Password:
+        <input type="password" name="password">
+    </form>
+    <h4>单选按钮</h4>
+    <form>
+        <input type="radio" name="sex" value="male">Male
+        <br>
+        <input type="radio" name="sex" value="female">Female
+    </form>
+    <h4>复选框</h4>
+    <form>
+        <input type="checkbox" name="vehicle" value="bike">I have a bike
+        <br>
+        <input type="checkbox" name="vehicle" value="car">I have a car
+    </form>
+    <h4>简单下拉列表</h4>
+    <form>
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">fiat</option>
+            <option value="audi">audio</option>
+        </select>
+    </form>
+    <h4>预选下拉列表</h4>
+    <form>
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat" selected>fiat</option>
+            <option value="audi">audio</option>
+        </select>
+    </form>
+    <h4>文本域</h4>
+    <textarea rows="10" cols="30">
+        文本域
+    </textarea>
+    <h4>按钮</h4>
+    <form>
+        <input type="button" value="Hello world">
+    </form>
+
+
+</body>
+
+</html>
